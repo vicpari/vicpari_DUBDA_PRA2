@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DB_vicpari</Database>
+    <Server>UCS1R1UOCSQL01</Server>
+    <ConnectionString>Data Source=UCS1R1UOCSQL01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>AZZ+hnYnfADLoePwvE02vsn1MDE=23/12/2020 16:47:5723/12/2020 16:43:46</TimeStamp>
+        <ID>
+          <String>DB_vicpari</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>+rPdt7pfdXeqMN7C/MiqDitKkG8=27/12/2020 19:16:1023/12/2020 16:50:40</TimeStamp>
+        <ID>
+          <String>Vista estadísticas jugadores</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>mbllboVw+FsEyZ8YyX5DCa1F2OY=23/12/2020 16:52:2323/12/2020 16:52:22</TimeStamp>
+        <ID>
+          <String>Vista estadísticas juego</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hjS7Rb9u+cef9/cZztmxKFnXQlA=23/12/2020 20:42:0123/12/2020 16:54:00</TimeStamp>
+        <ID>
+          <String>DIM POSICIONES JUEGO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VQqhSp3SyUZSXMFtHf4SkpcVRJI=23/12/2020 20:55:1823/12/2020 16:54:00</TimeStamp>
+        <ID>
+          <String>DIM EQUIPOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3+QpAbXUiZR5iPdDgp++E5DXi5U=23/12/2020 20:40:3323/12/2020 16:54:00</TimeStamp>
+        <ID>
+          <String>DIM TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iBH+6rKe0Fp3ixe6Ru0657w+S9M=23/12/2020 20:56:3723/12/2020 16:54:00</TimeStamp>
+        <ID>
+          <String>DIM JUGADORES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AvDv+bkQjJbsM3QsjCbV6wVrbEM=23/12/2020 20:27:1123/12/2020 17:14:24</TimeStamp>
+        <ID>
+          <String>DIM PARTIDOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FcQRGo5bjZVTvuU9a7z1t8l7a9Y=27/12/2020 18:48:1523/12/2020 17:14:24</TimeStamp>
+        <ID>
+          <String>DIM JUGADAS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6IjDGoTPY7ZlaWYFtFPRmqywt3s=23/12/2020 20:32:5523/12/2020 17:14:24</TimeStamp>
+        <ID>
+          <String>DIM MINUTOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OPOSDp3uVbZEvMBhjNrAdRKLL2Y=27/12/2020 19:40:3023/12/2020 17:14:24</TimeStamp>
+        <ID>
+          <String>FACT FREE THROWS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>AUCXY1hWaFhiqBSlJirusqf4NyM=27/12/2020 19:17:4123/12/2020 16:54:00f8nmOQuYbGKMz2/w2faxFaRndXA=27/12/2020 19:17:4023/12/2020 16:54:00</TimeStamp>
+        <ID>
+          <String>Cubo estadísticas jugadores</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5EazEprMhfA5nFd+LVyQ3KeHox0=27/12/2020 19:40:3023/12/2020 17:14:24nfsEFM1nryiyhzNRQx6K1BVcubk=23/12/2020 20:59:5323/12/2020 17:14:24</TimeStamp>
+        <ID>
+          <String>Vista estadísticas juego</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>bGGot776weAGwDiIG0LuCYFJAmM=23/12/2020 16:43:4323/12/2020 16:43:47</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>aqbmi3Pe79Fb4VTBPphqaXNvFEM=23/12/2020 16:43:4623/12/2020 16:43:44</TimeStamp>
+      <ID>
+        <String>DB_vicpari</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-12-27T18:40:37.336667Z</LastDeployed>
+</DeploymentSnapshot>

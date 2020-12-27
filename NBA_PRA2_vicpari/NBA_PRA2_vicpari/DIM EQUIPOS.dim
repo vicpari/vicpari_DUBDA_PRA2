@@ -1,0 +1,631 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9de61fd9-310a-4980-b122-d5b2b4f064c3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DIM EQUIPOS</ID>
+  <Name>DIM EQUIPOS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2564" scrolltop="-405" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="14023" y="10107" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_EQUIPOS" left="6229" top="6819" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3387" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003b0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_EQUIPOS" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_DIVISIONES" left="575" top="4547" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3149" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004d0c0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_DIVISIONES" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_ESTADOS_EEUU" left="6017" top="-178" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3598" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e0e000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_ESTADOS_EEUU" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_CONFERENCIAS" left="20" top="9672" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3704" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000780e0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_CONFERENCIAS" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6317" top="3742" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="1905" height="3377" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DIM_EQUIPOS_DIM_ESTADOS_EEUU]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="3" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6716" y="4241" />
+              <point x="6716" y="5619" />
+              <point x="7922" y="5619" />
+              <point x="7922" y="6819" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3424" top="5510" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="3105" height="4109" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DIM_EQUIPOS_DIM_DIVISIONES]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3724" y="5909" />
+              <point x="4976" y="5909" />
+              <point x="4976" y="9319" />
+              <point x="6229" y="9319" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1473" top="6972" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="976" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DIM_DIVISIONES_DIM_CONFERENCIAS]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1872" y="9672" />
+              <point x="1872" y="8472" />
+              <point x="2149" y="8472" />
+              <point x="2149" y="7272" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2564</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-405</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-178</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="131">
+            <Shape Id="Pk Equipo" Expanded="true">
+              <Attributes>
+                <Attribute Id="Pk Equipo" />
+                <Attribute Id="Ciudad" />
+                <Attribute Id="Codigo Equipo" />
+                <Attribute Id="Fundado" />
+                <Attribute Id="Id Estado EEUU" />
+                <Attribute Id="Liga" />
+                <Attribute Id="Pabellon" />
+                <Attribute Id="Patrocinio" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Nombre Equipo" Expanded="true">
+              <Attributes>
+                <Attribute Id="Nombre Equipo" />
+              </Attributes>
+              <Position x="188" y="20" />
+            </Shape>
+            <Shape Id="Nombre Estado" Expanded="true">
+              <Attributes>
+                <Attribute Id="Nombre Estado" />
+                <Attribute Id="Capital" />
+                <Attribute Id="Codigo" />
+                <Attribute Id="Densidad Poblacion" />
+                <Attribute Id="Nombre Oficial" />
+                <Attribute Id="Poblacion" />
+                <Attribute Id="Superficie" />
+              </Attributes>
+              <Position x="357" y="20" />
+            </Shape>
+            <Shape Id="Division" Expanded="false">
+              <Attributes>
+                <Attribute Id="Division" />
+              </Attributes>
+              <Position x="357" y="192" />
+            </Shape>
+            <Shape Id="Conferencia" Expanded="false">
+              <Attributes>
+                <Attribute Id="Conferencia" />
+              </Attributes>
+              <Position x="526" y="192" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c9d164b0-bde9-4e4a-afe0-9d82d22aa8ae">
+    <DataSourceViewID>Vista estadísticas jugadores</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="fb29bde4-1690-4a32-baa4-412b48d0ce5d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="aa49f4a4-c0ce-43d3-85d8-973206a94959">
+      <ID>Pk Equipo</ID>
+      <Name>Pk Equipo</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d566d228-8bdf-41f6-8ff0-6ea8e6494085">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5085dfdc-060e-4e80-ae04-fbc29e8ede85">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>pk_equipo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b2121bfd-fba1-4b4a-8202-cc37cc4e7ffb">
+          <AttributeID>Id Estado EEUU</AttributeID>
+          <Name>Id Estado EEUU</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="868689d0-fcf0-4be9-91a1-b5f168f8d070">
+          <AttributeID>Nombre Equipo</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Nombre Equipo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="acb0647d-c06b-477c-81fe-012a514e0080">
+          <AttributeID>Liga</AttributeID>
+          <Name>Liga</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c3f6f5e2-092d-49bd-a18b-2037ae7dbf3b">
+          <AttributeID>Codigo Equipo</AttributeID>
+          <Name>Codigo Equipo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e108d6a1-2575-4c10-9175-663801b243ba">
+          <AttributeID>Ciudad</AttributeID>
+          <Name>Ciudad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d1d900be-f653-4088-ae75-ea3381fc280e">
+          <AttributeID>Pabellon</AttributeID>
+          <Name>Pabellon</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="192927f8-5b80-4075-ae33-34ae8c5bf9d7">
+          <AttributeID>Fundado</AttributeID>
+          <Name>Fundado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d4129234-c2b7-47ca-ab66-1f0f780be0fa">
+          <AttributeID>Patrocinio</AttributeID>
+          <Name>Patrocinio</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ceca3ed3-5e41-4a20-8c53-9ad658aaa618">
+      <ID>Id Estado EEUU</ID>
+      <Name>Id Estado EEUU</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2264f3c8-1808-41e1-9586-70b8ccf83040">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d0f46f28-03ee-4e06-9835-1f6fec712763">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>id_estado_EEUU</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dd201cd7-eac4-4472-a8ef-dbf8c41b04ca">
+      <ID>Nombre Equipo</ID>
+      <Name>Nombre Equipo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="543c96df-55d2-43ec-a386-a18bdebc6c0f">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb10b825-f39b-49ea-b59e-f3edf3eb46f5">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>nombre_equipo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="25937a93-0616-4318-8d21-0620c21b0485">
+          <AttributeID>Division</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Division</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bfcc95dd-b9cd-4f8a-ac34-b2c5fa790834">
+          <AttributeID>Nombre Estado</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Nombre Estado</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cf25c7fe-142b-40c8-801f-3e39a22c806e">
+      <ID>Division</ID>
+      <Name>Division</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="64565559-50a4-471b-ab5a-ba13bb7ccd7a">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="87a4d2c2-91db-4aa1-af2a-bead15171560">
+            <TableID>dbo_DIM_DIVISIONES</TableID>
+            <ColumnID>division</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="70d2a42b-eb3b-491e-917d-8484ba0d1e6a">
+          <AttributeID>Conferencia</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Conferencia</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9dfeecc8-3cc4-432b-adad-2146ca82c390">
+      <ID>Conferencia</ID>
+      <Name>Conferencia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="90ae7cc6-fef3-4f2e-88b2-9c08d360888f">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9b46fd8b-81cd-43b7-bfe0-e5b555dbfe85">
+            <TableID>dbo_DIM_CONFERENCIAS</TableID>
+            <ColumnID>conferencia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="37f339da-bf6a-4bb0-9f73-9fad43ca7e64">
+      <ID>Liga</ID>
+      <Name>Liga</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="61622892-1cc3-4265-8869-8dea9e2736aa">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="398cf9d7-bd74-489f-b67e-4a7847597ce5">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>liga</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="af3c9b83-f739-4a34-be5b-d39b31310acf">
+      <ID>Codigo Equipo</ID>
+      <Name>Codigo Equipo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d572bc2b-aa1b-4d84-82d4-91095f65dde2">
+          <DataType>WChar</DataType>
+          <DataSize>4</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="98a5485e-8462-44b9-a0d4-54827af24820">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>codigo_equipo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1edcb41a-4d8a-4d44-b317-5d4b9fb02e7e">
+      <ID>Ciudad</ID>
+      <Name>Ciudad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ccaaacbf-4145-4861-90ea-caee413f5f2c">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15ebedb6-da20-41bf-b122-4c913285eebc">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>ciudad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f39b77ae-bc83-4f85-a30d-3ed374e61c80">
+      <ID>Pabellon</ID>
+      <Name>Pabellon</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b49fb5f-7393-4d12-9799-3be72ad5efe3">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="806fa408-25d9-4376-a2c3-cc9463628a84">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>pabellon</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="31658661-febd-498d-a00a-5cc9e3c4cfa9">
+      <ID>Fundado</ID>
+      <Name>Fundado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b48440ab-299e-4469-a9dd-e60ca5457bef">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5cf5e4a5-7ae4-41c3-a21f-8545f31e2ce8">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>fundado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9742c998-923f-4aa7-b19d-5e553e613ccc">
+      <ID>Patrocinio</ID>
+      <Name>Patrocinio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="532df0bb-9f3d-4817-9fef-a6c05b54c3d0">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e0c6384-b39f-4e2c-9c44-b2e960a0e52a">
+            <TableID>dbo_DIM_EQUIPOS</TableID>
+            <ColumnID>patrocinio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="32e7178f-a74d-4bf4-a84d-50a12e177daf">
+      <ID>Nombre Oficial</ID>
+      <Name>Nombre Oficial</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="becb2af8-277c-4ea0-830d-1cb24cdb0c12">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7db8db52-f3a5-4c66-90df-f5bf5b68354c">
+            <TableID>dbo_DIM_ESTADOS_EEUU</TableID>
+            <ColumnID>nombre_oficial</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="380db457-b821-4d9a-a6d4-aacea175af46">
+      <ID>Codigo</ID>
+      <Name>Codigo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="909c3fc7-aa2e-45f1-baee-06bfac1956f4">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="869fdf64-435e-4e98-b2be-17bb47b1a76a">
+            <TableID>dbo_DIM_ESTADOS_EEUU</TableID>
+            <ColumnID>codigo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b143e8bb-a57a-420d-898d-9f6ec307034b">
+      <ID>Superficie</ID>
+      <Name>Superficie</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca9e6134-2c0e-477f-8d5c-3711f4343ed7">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d0a4b0f-e617-4fad-b654-0e35133f9805">
+            <TableID>dbo_DIM_ESTADOS_EEUU</TableID>
+            <ColumnID>superficie</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="acf6dc1b-f556-469f-bdb5-55942d0a446d">
+      <ID>Poblacion</ID>
+      <Name>Poblacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f35de17c-c90c-4d52-bdce-df86909363f2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e1ec51ed-b93e-44ef-98ff-1cf5fc09e614">
+            <TableID>dbo_DIM_ESTADOS_EEUU</TableID>
+            <ColumnID>poblacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0bba1f1d-7ab4-476a-b769-d2f00b6c2596">
+      <ID>Capital</ID>
+      <Name>Capital</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6ecf3152-9143-46aa-baa5-c67a1de6a9ff">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd51e6af-c9ff-404a-befb-1361d47d7e82">
+            <TableID>dbo_DIM_ESTADOS_EEUU</TableID>
+            <ColumnID>capital</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d2bf6f54-6229-4860-a64d-ffa8829e7bda">
+      <ID>Densidad Poblacion</ID>
+      <Name>Densidad Poblacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b41d92f-3276-4c2f-af56-d512eeff119d">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d7b4f506-5f71-410f-9db0-19ac74059b7e">
+            <TableID>dbo_DIM_ESTADOS_EEUU</TableID>
+            <ColumnID>densidadPoblacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c6876889-d85b-47cb-830b-25b603bd9a0c">
+      <ID>Nombre Estado</ID>
+      <Name>Nombre Estado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d03b96a3-e00c-4abd-ab88-915a0305a2ee">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bb67316-79bf-4aea-8465-a3b9371a1dec">
+            <TableID>dbo_DIM_ESTADOS_EEUU</TableID>
+            <ColumnID>nombre</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d8d485de-8c7e-46c4-8464-631e32e1c492">
+          <AttributeID>Capital</AttributeID>
+          <Name>Capital</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cdfbfd62-bf10-4e61-a0b5-ceb332ca33a2">
+          <AttributeID>Codigo</AttributeID>
+          <Name>Codigo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="195c6b75-1af9-42dd-a46d-57cb7263064b">
+          <AttributeID>Densidad Poblacion</AttributeID>
+          <Name>Densidad Poblacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0484e6b0-98ef-43ba-80bf-c10c9a827f33">
+          <AttributeID>Nombre Oficial</AttributeID>
+          <Name>Nombre Oficial</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="38385999-0cde-4295-ba78-b71d83bc29df">
+          <AttributeID>Poblacion</AttributeID>
+          <Name>Poblacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a586c7c3-4084-426b-b3d6-18b669ef1775">
+          <AttributeID>Superficie</AttributeID>
+          <Name>Superficie</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c4208028-677b-4c9d-89cf-2e52410bb166">
+      <ID>Jerarquía</ID>
+      <Name>Estado-Equipo</Name>
+      <Levels>
+        <Level dwd:design-time-name="d7328f13-4ca0-4294-a17b-8779192a094e">
+          <ID>Nombre Estado</ID>
+          <Name>Nombre Estado</Name>
+          <SourceAttributeID>Nombre Estado</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3e6589cd-c86f-4e78-8677-89f1f3d78c5e">
+          <ID>Nombre Equipo</ID>
+          <Name>Nombre Equipo</Name>
+          <SourceAttributeID>Nombre Equipo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="bce86265-659b-4df7-947a-68dc3f7ca75e">
+      <ID>Jerarquía 1</ID>
+      <Name>Conferencia-División-Equipo</Name>
+      <Levels>
+        <Level dwd:design-time-name="a5afc80e-892a-4660-b9e4-a22c03b01450">
+          <ID>Conferencia</ID>
+          <Name>Conferencia</Name>
+          <SourceAttributeID>Conferencia</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a1797237-a7dc-481b-af00-d0eef1ef87ea">
+          <ID>Division</ID>
+          <Name>Division</Name>
+          <SourceAttributeID>Division</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e060bab2-8620-4f05-bd02-0fc274549b90">
+          <ID>Nombre Equipo</ID>
+          <Name>Nombre Equipo</Name>
+          <SourceAttributeID>Nombre Equipo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
